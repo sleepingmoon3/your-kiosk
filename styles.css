@@ -22,7 +22,7 @@
     }
 }
 .block1{
-    animation: appear 5s linear;
+    animation: appear .5s linear;
 }
 
 .block {
