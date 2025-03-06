@@ -155,7 +155,7 @@ h1 {
     font-size: 80px;
     font-family: "Orbitron";
     font-weight: 900;
-    text-shadow: 4px 4px #35C3E3;
+    text-shadow: 6px 6px #000;
 
 }
 
@@ -165,7 +165,7 @@ h2 {
     font-family: "Orbitron";
     font-weight: 900;
 
-    text-shadow: 4px 4px #DE3293;
+    text-shadow: 5px 5px #000;
 }
 p {
     font-weight: 900;
@@ -226,7 +226,7 @@ h4{
     font-family: "ORBITRON";
     font-weight: 900;
 
-    text-shadow: 4px 4px #35C3E3F;
+    text-shadow: 4px 4px #000;
 }
 
 .cost {
