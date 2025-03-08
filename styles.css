@@ -32,9 +32,22 @@
 }
 
 
+.background video{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+    
+}
+
 .container {
-    background-image: url('lightning.jpg');
-      background-size: cover;
+    z-index: 2;
+    /* background-image: url(lightning.jpg);
+      background-size: cover; */
+      
       }
 
     /* 484c1d 
@@ -171,6 +184,7 @@ p {
     color: #F9ED24;
     font-family: ORBITRON;
     font-size: 24px;
+
 }
 
 span {
@@ -272,10 +286,28 @@ h4{
     /* border: 5px solid #F9ED24; */
     width: 250px;
     height: 250px;
-    border-radius: 50;
+    border-radius: 50px;
     text-align: center ;
     position: relative;
 }
+
+.menu {
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+
+}
+
+.kiosk{
+    background-color: #fff;
+    width: 300px;
+    height: 400px;
+    border: 3px solid black;
+    border-radius: 25px;
+}
+
+
 
 
 
