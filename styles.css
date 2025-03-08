@@ -45,6 +45,8 @@
 
 .container {
     z-index: 2;
+    position: relative;
+
     /* background-image: url(lightning.jpg);
       background-size: cover; */
       
