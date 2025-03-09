@@ -46,46 +46,7 @@
 .container {
     z-index: 2;
     position: relative;
-
-    /* background-image: url(lightning.jpg);
-      background-size: cover; */
-      
-      }
-
-    /* 484c1d 
-    background: linear-gradient(
-        to right,
-        /* #989862 0%,
-        #989862 50%,
-        #a29a01 50%,
-        #a29a01 75%,
-        #fff 75%,
-        #fff 100%  
-        #0E9A6F 0%,
-        #0F5E7D 100%
-        );
-/* 
-         
-    
-    /*
-    background: linear-gradient(45deg, blue, #04f450, darkblue, yellow);
-    background-size: 300% 300%;
-    animation: color 20s ease-in-out infinite;*/
-
-
-@keyframes color{
-    0%{
-        background-position: 0 25%;
-
-    }
-    50%{
-        background-position: 50% 75%;
-        
-    }
-    100%{
-        background-position: 0% 50%;
-        
-    } 
+    padding: 30px 10%;
     
 } 
 
@@ -102,7 +63,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 10%;
 }
 
 
@@ -149,22 +109,19 @@ button {
 button:hover {
     background-color: #DE3293;
 }
-/* 
-.hero-content{
-} */
+
 
 .hero-section {
     width: 100%;
     background-repeat: no-repeat;
     background-size: color;
-    padding: 25px 150px;
+    
     display: flex;
     align-items: flex-start;
 
 }
 
 h1 {
-    /* color: #00ffc8; */
     color: #F9ED24;
     font-size: 80px;
     font-family: "Orbitron";
@@ -203,25 +160,17 @@ span {
     align-items: flex-end;
 
 }
-.circle 
-{
-
-}
 
 .build {
     width: 100%;
     background-repeat: no-repeat;
-    padding: 25px 150px;
+    
     
 }
 .buildcontent {
     text-align: center;
 }
 
-.products {
-    padding: 25px 150px;
-    
-}
 
 .Productcontent {
     padding-top: 40px;
@@ -285,7 +234,6 @@ h4{
     margin: 0 auto;
     background-color: rgba(0, 0, 0, 0.5);
     padding: 50px;
-    /* border: 5px solid #F9ED24; */
     width: 250px;
     height: 250px;
     border-radius: 50px;
@@ -314,32 +262,5 @@ h4{
 
 
     
-}
-/*
-.circle {
-    background-color: black;
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    padding-top: 20px;
-    padding-right: 40px;
-    float: right;
-    position: relative;
-}
-.circlecontent{
-    position: absolute;
-    background-color:black;
-    top: 50%;
-    transform:translateY(-50%);
-    width: inherit;
-    height: auto;
 
-}
-
-.circlecontent span{
-    background-color:black;
-    
-
-}
-*/
 
