@@ -99,7 +99,7 @@ header {
 button {
     color: black;
     padding: 9px 25px;
-    background-color: #F9ED24;
+    background-color: #DE3293;
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -107,7 +107,8 @@ button {
 }
 
 button:hover {
-    background-color: #DE3293;
+    background-color: #F9ED24;
+    color: black;
 }
 
 
@@ -201,8 +202,8 @@ h4{
 
 .square {
     text-align: center;
-    width: 200px;
-    height: 200px;
+    width: 400px;
+    height: 400px;
 }
 
 .savings {
@@ -257,7 +258,65 @@ h4{
     border-radius: 25px;
 }
 
+.cartTab{
+    z-index: 3;
+    width:600px;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    inset: 0 0 0 auto;
+    display: grid;
+    grid-template-rows:  70px 1fr 70px;
 
+}
+
+.cartTab h4 {
+    padding: 20px;
+    margin: 0;
+    font-weight: 300;
+}
+
+.cartTab .btn {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+.cartTab .btn button {
+    background-color: #e8BC0E;
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+    
+}
+.cartTab .btn .close {
+    background-color: #eee;
+}
+
+.cartTab .listCart .item img {
+    
+    height: 175px;
+    text-align: center;
+}
+
+.cartTab .listCart .item {
+    display: grid;
+    grid-template-columns: 75px 250px 150px 70px;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.listcart .item .quatity {
+    display: flex;
+}
+
+.listCart .quantity span:nth-child(2){
+    background-color: transparent;
+    color: #eee;
+}
+
+.listCart .item:nth-child(even){
+    background-color: #eee1
+}
 
 
 
