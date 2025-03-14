@@ -14,7 +14,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YOURKIOSK</title>
     <link rel="stylesheet" href="styles.css">
-       
+    
 </head>
 
 <body>
@@ -31,7 +31,7 @@
                     <li><a style="color: #2CB892; float:right; font-size: 12px;"href="https://www.reji.io">POWERED BY <img style="width:50px;" src="reji1.png" alt=""></a></li>
                 </ul> 
             </nav>
-            <a href="#" class="cart block"><button>ORDER</button></a>
+            <a href="contact.html" class="cart block"><button>CONTACT</button></a>
         </header>
 
     <div style="padding-top: 100px;"class="hero-section block">
@@ -240,8 +240,44 @@
 
     </div>
 
+    <script> 
+    let valueDisplays = document.querySelectorAll(".num");
+        let interval = 5000;
+        
+        valueDisplays.forEach((valueDisplay) => {
+            let startValue = 0;
+            let endValue = parseInt(valueDisplay.getAttribute("data-val"));
+            
+            let duration = Math.floor(interval / endValue);
+            let counter = setInterval(function () {
+                startValue += 1;
+                valueDisplay.textContent = startValue;
+            });
+        });</script>
+
+    <!-- <script>
+
+function openContactForm() {
+  const newWindow = window.open('', 'contactWindow', 'width=500,height=400');
+  if (newWindow) {
+    newWindow.document.body.innerHTML = `
+      <h1>Contact Us</h1>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message"></textarea><br><br>
+        <button type="submit">Submit</button>
+      </form>
+    `;
+  } else {
+    alert('Popup blocked! Please allow popups for this site.');
+  }
+};
+
+    </script> -->
 
 
-<script src="script.js"></script>
 </body>
 </html>

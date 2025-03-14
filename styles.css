@@ -318,8 +318,30 @@ h4{
     background-color: #eee1
 }
 
+.wrapper {
+    padding-top: 50px;
+    display: flex;
+    justify-content:  center;
+}
 
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
 
-    
+.contact-inputs {
+    font-family: ORBITRON;
+    font-size: 20px;
+    width: 400px;
+    height: 50px;
+    background-color: #000;
+    color: #F9ED24;
+    border-radius: 10px;
+}
 
+.wrapper textarea {
+    height: 150px;
+}
 

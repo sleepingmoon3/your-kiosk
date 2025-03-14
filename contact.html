@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="background">
+    <video src="lightning.mp4" autoplay muted loop playsinline></video>
+
+    <div class="container">
+
+        <header>
+            <a href="index.html"><img src="logo4.png" class="logo block" alt=""></a>
+            <nav>
+                <ul class="nav__links block">
+                    <li style="font-size: 20px; color: white; text-shadow:2px 2px #000">THE PROFESSIONAL KIOSK COMPANY</li> 
+                    <li><a style="color: #2CB892; float:right; font-size: 12px;"href="https://www.reji.io">POWERED BY <img style="width:50px;" src="reji1.png" alt=""></a></li>
+                </ul> 
+            </nav>
+            
+        </header>
+
+        <h1 style="text-align: center; padding-top: 100px;">CONTACT US</h1>
+        <h4 style="text-align: center;">SEND A SECURE MESSAGE &#128274;</h4>
+        
+        <div class="wrapper">
+            <form  class="contactForm"action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="be0b8406-a91f-4d20-a39f-962870277060">
+                <input type="text" name="name" placeholder="YOUR NAME" class="contact-inputs" required>
+                <input type="email" name="email" placeholder="YOUR EMAIL" class="contact-inputs" required>
+                <textarea name="message"  class="contact-inputs" placeholder="YOUR MESSAGE" required></textarea>
+                <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+                <button type="submit">SEND</button>
+            </form>
+    
+</div>
+</body>
+</html>
