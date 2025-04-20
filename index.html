@@ -15,7 +15,7 @@
     <link rel="icon" type="image/png" href="favicon.png">
 
 
-    <title>YOUR KIOSK PROFESSIONALS FULL SELF ORDERING KIOSKS & SOFTWARE SELL ANYTHING ON FULL SELF ORDERING KIOSK. FULL SELF CHECKOUT KIOSK THE VERY BEST PRICE QUALITY KIOSKS</title>
+    <title>FUTURE KIOSK FULL SELF ORDERING KIOSKS & SOFTWARE SELL ANYTHING ON FULL SELF ORDERING KIOSK. FULL SELF CHECKOUT KIOSK THE VERY BEST PRICE QUALITY KIOSKS</title>
     <meta name="description" content="
     CUSTOM KIOSK SOFTWARE & KIOSKS SELL 
     ANYTHING ON KIOSKS KIOSKS KIOSKS GET YOUR KIOSKS YOUR KIOSK PROFESSIONALS THE VERY BEST PRICE QUALITY KIOSKS HOW MUCH ARE KIOSKS
@@ -59,12 +59,44 @@
         </div>   
     </div>
 
-    <div style="padding-top:100px; text-align:center;" class="vid">
+    <div style="padding-top:100px; text-align:center; padding-bottom: 100px;" class="vid">
         <iframe src="https://player.vimeo.com/video/1063959533?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="800" height="450" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" title="WWW.YOURKIOSK.PRO"></iframe>
     </div>
 
+      <!-- Slideshow container -->
+<div class="slideshow-container" >
 
-    <div style="text-align: center; padding-top: 100px; ">
+    <!-- Full-width with number and caption text -->
+    <div class="mySlides fade">
+      <img src="img4.jpeg" style="width:450px">
+     
+    </div>
+  
+    <div class="mySlides fade">
+      <img src="img3.jpeg" style="width:450px">
+      
+    </div>
+  
+    <div class="mySlides fade">
+      <img src="img2.jpeg" style="width:450px">
+      
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    
+  </div>
+  
+    <div style="text-align: center; padding-top: 50px; ">
         <h1 class="block">YOUR MENU</h1>
         <h2 class="block">ON A KIOSK.</h2>
         <h3 class="block">FULL SYSTEM: MENU, ORDERING, CHECKOUT</h3>
@@ -74,6 +106,8 @@
         <h1 class="block" style=" color:#F9ED24;"><span style="color: #fff;">$1,499</h1>  -->
         
     </div>
+
+  
 
     <div class="info block" style="padding-top: 100px;">
 
@@ -96,7 +130,7 @@
     </div> -->
 
 
-    <div class="Productcontent" style="padding-top: 100px;">
+    <div class="Productcontent" style="padding-top: 25px;">
 
         <div class="circlecontent" style="text-align: center;">
 
@@ -342,6 +376,38 @@
                 valueDisplay.textContent = startValue;
             });
         });</script>
+
+
+<script>
+    let slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
 
     <!-- <script>
 
